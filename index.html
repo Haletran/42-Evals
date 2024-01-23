@@ -39,18 +39,6 @@
 </style>
 
 <body>
-	<div class="overlay" id="overlay"></div>
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('./js/service-worker.js')
-      .then(function(registration) {
-        console.log('Service Worker registered successfully:', registration);
-      })
-      .catch(function(error) {
-        console.log('Service Worker registration failed:', error);
-      });
-    }
-  </script>
   <div class="container-item scale-team-container">
     <div class="row mt-4">
       <div class="scale-section-infos col-sm-12 scale-div">
